@@ -6,4 +6,5 @@ Persiapan
 Cara Running simple:
 1. python3 getallcidrdata.py --cidrs cidrs.txt
 2. python3 reqscan.py
+3. python3 subdomain.py --query 'hostname:"*.abc.id"'
    
