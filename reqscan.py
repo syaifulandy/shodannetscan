@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 shodan_scan.py
-- Baca daftar IP/CIDR dari ip.txt
+- Baca daftar IP/CIDR dari listip.txt
 - Baca API key dari apikey.txt
 - Submit scan request ke Shodan
 
@@ -31,7 +31,7 @@ def read_ips(path="ip.txt"):
 
 def main():
     ap = argparse.ArgumentParser(description="Submit Shodan scan jobs from file")
-    ap.add_argument("--ips", default="ip.txt", help="File berisi IP/CIDR (tiap baris)")
+    ap.add_argument("--ips", default="listip.txt", help="File berisi IP/CIDR (tiap baris)")
     ap.add_argument("--apikey", default="apikey.txt", help="File berisi Shodan API key")
     args = ap.parse_args()
 
