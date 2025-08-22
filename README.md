@@ -5,7 +5,7 @@ Persiapan
 
 Cara Running simple:
 1. python3 getallcidrdata.py --cidrs cidrs.txt
-2. python3 reqscan.py
+2. python3 reqscan.py : Request scan 
 3. python3 subdomain.py --query 'hostname:"*.abc.id"'
 4. python3 shodan_getinfoperip.py
    
